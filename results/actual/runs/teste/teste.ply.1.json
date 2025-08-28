@@ -1,0 +1,36 @@
+[
+  {
+    "name": "teste",
+    "test": "teste",
+    "type": "request",
+    "end": "2025-08-28T20:43:16.882Z",
+    "result": {
+      "status": "Submitted",
+      "message": "Request 'teste' SUBMITTED"
+    },
+    "request": {
+      "name": "teste",
+      "type": "request",
+      "url": "http://127.0.0.1:5000/users",
+      "method": "POST",
+      "headers": {},
+      "submitted": "2025-08-28T20:43:16.793Z"
+    },
+    "response": {
+      "runId": "3306ba02ac954",
+      "status": {
+        "code": 415,
+        "message": "UNSUPPORTED MEDIA TYPE"
+      },
+      "headers": {
+        "connection": "close",
+        "content-length": "215",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Thu, 28 Aug 2025 20:43:16 GMT",
+        "server": "Werkzeug/3.1.3 Python/3.12.5"
+      },
+      "body": "<!doctype html>\n<html lang=en>\n<title>415 Unsupported Media Type</title>\n<h1>Unsupported Media Type</h1>\n<p>Did not attempt to load JSON data because the request Content-Type was not &#39;application/json&#39;.</p>\n",
+      "time": 46
+    }
+  }
+]
