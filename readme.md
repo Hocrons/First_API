@@ -5,6 +5,11 @@
 
 API simples em **Flask** para cadastro e gerenciamento de usuários.  
 
+## Grupo 8
+-**Ariany Alves**
+-**Erik Paulino**
+-**Heitor dos Santos**
+
 ## Operações disponíveis  
 - **Cadastrar usuário**  
 - **Consultar todos os usuários**  
